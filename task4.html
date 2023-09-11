@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-4</title>
+    <style>
+        form {
+            width: 400px;
+        }
+        
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: left;
+            margin-right: 50px;
+        }
+        
+        input,
+        textarea {
+            display: inline-block;
+            width: 200px;
+            margin-bottom: 10px;
+        }
+        
+        #save {
+            border-color: goldenrod;
+            padding: 5px;
+            background-color: rgb(235, 198, 129);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name"><br>
+            <label for="uname">Username:</label>
+            <input type="text" id="uname"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password"><br>
+            <label for="rp">Re Password:</label>
+            <input type="password" id="rp"><br>
+            <label for="address">Address:</label>
+            <input type="text" id="address"><br>
+            <label for="age">Age:</label>
+            <input type="text" id="age"><br>
+            <label for="Gender">Gender:</label>
+            <select name="Gender" id="Gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select><br>
+            <button type="submit" id="save">Save</button>
+        </form>
+    </div>
+</body>
+
+</html>
